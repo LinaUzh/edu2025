@@ -8,7 +8,10 @@
 h2{
    color: rgb(14, 163, 51);
 }
-h2.footer-title{
+.footer-title {
+   color: crimson;
+}
+.footer-title + h3{
    color: crimson;
 }
 p{
@@ -38,6 +41,15 @@ p.footer-text{
 .list ~ p{
    color: blue;
 }
-.geography + p {
-   color: blueviolet;
+a.link {
+   color: rgb(68, 179, 222);
+}
+a.geography-link {
+   color: rgb(141, 141, 39);
+}
+mark{
+   color: brown;
+}
+mark.marking {
+   color: rgb(43, 226, 128);
 }
