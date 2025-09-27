@@ -1,1 +1,43 @@
 @import url("reset.css");
+.title {
+   color: darkmagenta;
+}
+.headline{
+   color: rgb(111, 26, 26);
+}
+h2{
+   color: rgb(14, 163, 51);
+}
+h2.footer-title{
+   color: crimson;
+}
+p{
+   color: darkred;
+}
+p.footer-text{
+   color: darkblue;
+}
+#top {
+   color: rgb(180, 69, 214);
+}
+#history-block{
+   color: rgb(44, 36, 205);
+}
+.nav {
+   color: rgb(22, 115, 84);
+}
+[class*="ems"] {
+   color: rgb(159, 132, 21);
+}
+.geography > p{
+   color: rgb(217, 185, 138);
+}
+.header p{
+   color: chocolate;
+}
+.list ~ p{
+   color: blue;
+}
+.geography + p {
+   color: blueviolet;
+}
