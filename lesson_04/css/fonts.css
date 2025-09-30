@@ -2,7 +2,7 @@
 @font-face {
    font-family: "Podkova-Regular";
    src: url("../fonts/Podkova-Regular.woff2") format("woff2");
- font-style: serif;
+ font-style: normal;
    font-display: swap;
    font-weight: 400;
 }
@@ -10,7 +10,7 @@
    font-family: "LetoSlab-Regular";
    src: url("../fonts/LetoSlab-Regular.woff2") format("woff2");
    font-display: swap;
-   font-style: san-serif ;
+   font-style: normal ;
    font-weight: 400;
 }
 @font-face {
