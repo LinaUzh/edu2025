@@ -1,14 +1,22 @@
+
 @font-face {
-   font-family: "Academia-Libera.woff2", serif;
-   src: url(../fonts/Academia-Libera.woff2)  format("woff2");
-   font-style: normal;
+   font-family: "Podkova-Regular";
+   src: url("../fonts/Podkova-Regular.woff2") format("woff2");
+ font-style: serif;
    font-display: swap;
-   font-weight: 600;
+   font-weight: 400;
+}
+@font-face{
+   font-family: "LetoSlab-Regular";
+   src: url("../fonts/LetoSlab-Regular.woff2") format("woff2");
+   font-display: swap;
+   font-style: san-serif ;
+   font-weight: 400;
 }
 @font-face {
-   font-family: "AnastasiaScript.woff2", italic;
-   src: url(../fonts/AnastasiaScript.woff2) format("woff2"); 
-   font-style: italic;
-   font-display: normal;
+   font-family: "AnastasiaScript" ;
+   src: url("../fonts/AnastasiaScript.woff2");
+   font-display: swap;
+font-style: italic;
    font-weight: 400;
 }
