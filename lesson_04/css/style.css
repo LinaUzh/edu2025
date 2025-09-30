@@ -39,8 +39,11 @@ li.items-title {
    letter-spacing: 10px;
    line-height: 2;
    font-family: "Roboto", serif;
-   font-size: 15 px;
+   font-size: 15px;
    font-weight: 600;
+   text-shadow: 
+   5px 0px 2px rgb(250, 133, 90),
+   12px 1px 2px rgb(20, 85, 52);
 }
 a.link {
    color: brown;
@@ -67,7 +70,7 @@ h2 {
 }
 h3 {
    text-align: center;
-   font-size: 18;
+   font-size: 18px;
    color: rgb(127, 28, 28);
    font-family: "Podkova-Regular";
    font-weight: 400;
@@ -88,7 +91,7 @@ h3 {
 }
 .chapter-two p {
    font-family: "Podkova-Regular", serif;
-   font-size: 15 px;
+   font-size: 15px;
    font-weight: 400;
 }
 .chapter-one {
@@ -100,4 +103,10 @@ h3 {
    font-family: "AnastasiaScript", cursive;
    font-weight: 400;
    font-size: 15px;
+}
+.text-link{
+   text-shadow:
+      20px 18px 1px #451b1ba3,
+      -30px 35px 2px #4b0d0d71,
+      -20px 50px 1px #451b1ba3;
 }
