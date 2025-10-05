@@ -1,0 +1,102 @@
+@import url("reset.css");
+@import url("fonts.css");
+.main {
+   width: auto;
+}
+.figma {
+   max-width: 1180px;
+   margin: 0 auto;
+   margin-bottom: 82px;
+   padding-top: 82px;
+   font-size: 0;
+   text-align: center;
+}
+p.content {
+   font-family: "Lato-Medium", sans-serif;
+   font-weight: 500;
+   line-height: 125%;
+   color: #7e7f7c;
+   letter-spacing: 0;
+   font-size: 16px;
+}
+.title {
+   font-family: "Lato-Heavy", sans-serif;
+   font-weight: 800;
+   font-size: 32px;
+   line-height: 125%;
+   text-align: center;
+   color: #2f302c;
+   text-transform: uppercase;
+   margin-bottom: 72px;
+}
+.icon {
+   margin-bottom: 24px;
+   height: 60px;
+   width: 60px;
+}
+.subtitle {
+   font-weight: 700;
+   line-height: 125%;
+   text-align: center;
+   color: #2f302c;
+   font-size: 16px;
+   text-transform: uppercase;
+   margin-bottom: 24px;
+}
+.line-one {
+   margin-bottom: 68px;
+}
+.section-one,
+.section-two {
+   display: inline-block;
+   width: 348px;
+   vertical-align: top;
+}
+.email,
+.global {
+   padding-left: 0px;
+   margin-right: 68px;
+}
+.shipping,
+.payment {
+   margin-right: 68px;
+}
+.headline {
+   font-family:"Lato-Heavy", sans-serif ;
+   font-size: 30px;
+   font-weight: 800;
+   text-align: center;
+   padding-top: 80px;
+   margin-bottom: 50px;
+   color: rgb(100, 68, 29);
+   letter-spacing: 10px;
+   text-shadow: 5px 5px 8px rgb(25, 18, 18);
+}
+p.text{
+   max-width: 600px;
+   padding: 30px;
+   background-color: rgb(167, 170, 169);
+   max-height: 200px;
+   overflow-y: scroll;
+   display: inline-block;
+   vertical-align: middle;
+   margin: 0px 50px;
+}
+img.photo {
+   max-width: 800px;
+   max-height: 1000px;
+overflow: scroll
+}
+.experiment {
+   margin-bottom: 50px;
+}
+.footer {
+   text-align: center;
+   padding-bottom: 50px;
+}
+.footer-subtitle {
+   font-family:"Lato-Medium", sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+text-transform: uppercase;
+}
