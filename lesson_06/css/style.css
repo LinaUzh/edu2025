@@ -65,10 +65,15 @@ h1 span {
 }
 .pricing-item {
    background: url("../img/icons/Check.svg") 0 0 no-repeat;
+}
+.pricing-item-grey {
+   background: url("../img/icons/Check-grey.svg") 0 0 no-repeat;
+}
+.pricing-item, .pricing-item-grey {
    min-height: 32px;
    padding: 4px 0 4px 42px;
    margin-bottom: 15px;
-   vertical-align: middle;
+   text-align: left;
 }
 .fixed {
 background: url("../img/images.jpg") 0 0  no-repeat;
