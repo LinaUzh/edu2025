@@ -1,0 +1,101 @@
+@import url("reset.css");
+@import url("fonts.css");
+body{
+   max-width: 1920px;
+   margin: 0 auto;
+}
+.header-block h2 {
+   min-height: 150px;
+   margin-bottom: 30px;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 800;
+   font-size: 50px;
+   text-align: center;
+   padding-top: 50px;
+   text-shadow: 2px 5px 5px #5a8286;
+}
+.furniture {
+   background: url("../img/hero-banner.jpg") no-repeat;
+   max-width: 1920px;
+   min-height: 612px;
+   padding-left: 1008px;
+   padding-top: 114px;
+   margin-bottom: 100px;
+}
+.subject {
+   font-family: "Lato", sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+   margin-bottom: 20px;
+   line-height: 1.4;
+}
+.title {
+   font-size: 96px;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 800;
+   margin-bottom: 16px;
+   color: #2f302c;
+}
+h1 span {
+   font-weight: 700;
+}
+.slogan p {
+   font-family: "Lato", sans-serif;
+   font-weight: 500;
+   max-width: 374px;
+   color: #7e7f7c;
+   line-height: 1.25;
+}
+.block-title {
+   border-bottom: 1px solid #2f302c;
+   margin-bottom: 36px;
+   max-width: 308px;
+}
+.pricing-block {
+   margin: 0 auto;
+   padding: 16px 40px 16px 40px;
+   max-width: 351px;
+}
+.pricing-list {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 1.7;
+   color: #252b42;
+}
+.pricing-item {
+   background: url("../img/icons/Check.svg") 0 0 no-repeat;
+   min-height: 32px;
+   padding: 4px 0 4px 42px;
+   margin-bottom: 15px;
+   vertical-align: middle;
+}
+.fixed {
+background: url("../img/images.jpg") 0 0  no-repeat;
+min-height: 1000px;
+background-size: cover;
+background-attachment: fixed;
+margin-bottom: 30px;
+}
+.imprint p {
+   background: url("../img/images.jpg") 0 0 no-repeat;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 1.5;
+   background-clip: text;
+   background-size: cover;
+   color: transparent;
+   box-shadow: 10px 10px 10px #252b42;
+   border-radius: 25px;
+   margin-bottom: 50px;
+}
+.triangle {
+   display: inline-block;
+   width: 0;
+   height: 0;
+   border-top: 50px solid transparent;
+   border-left: 100px solid red;
+   border-bottom: 50px solid transparent;
+   margin-left: 25px;
+}
