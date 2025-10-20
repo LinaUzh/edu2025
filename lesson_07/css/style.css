@@ -17,11 +17,11 @@ body {
    line-height: 1.2;
 }
 .title::before,
-.title::after{
+.title::after {
    content: "";
    width: 150px;
    height: 150px;
-   background:  url("../img/pizza.png") center / 150px 150px no-repeat;
+   background: url("../img/pizza.png") center / 150px 150px no-repeat;
    vertical-align: middle;
 }
 .title:hover {
@@ -38,8 +38,8 @@ body {
    background:
       url("../img/pizza.png") 90% 0% / 250px no-repeat,
       url("../img/turtles.jpg") 50% 50% no-repeat;
-      margin-bottom: 50px;
-      margin: 0 uato;
+   margin-bottom: 50px;
+   margin: 0 auto;
 }
 .game-block img {
    max-width: 300px;
@@ -115,8 +115,9 @@ body {
    margin: -150px 0 0 1020px;
    visibility: hidden;
 }
-.line-04:hover + .line-05, .line-05:hover{
-   visibility:visible;
+.line-04:hover + .line-05,
+.line-05:hover {
+   visibility: visible;
 }
 .line-06 {
    max-width: 460px;
@@ -125,8 +126,9 @@ body {
    margin: -150px 0 0 1070px;
    visibility: hidden;
 }
-.line-05:hover + .line-06, .line-06:hover {
-   visibility:visible;
+.line-05:hover + .line-06,
+.line-06:hover {
+   visibility: visible;
 }
 .subtitle {
    font-family: "Lato", sans-serif;
@@ -166,7 +168,7 @@ body {
    vertical-align: middle;
    margin-right: 10px;
 }
-.price-item:not(:last-child){
+.price-item:not(:last-child) {
    margin-bottom: 15px;
 }
 .price-item:nth-of-type(4)::before,
@@ -176,11 +178,21 @@ body {
    height: 32px;
    background: url("../img/icons/Check-grey.svg") center / 32px 32px no-repeat;
 }
-.about-salvadore{
+.about-salvadore h4 {
+   font-family: "Lato", sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   letter-spacing: 1.5;
+   margin-bottom: 25px;
+}
+.about-salvadore p {
    font-family: "Montserrat", sans-serif;
    font-weight: 600;
    font-size: 25px;
    line-height: 1.5;
+}
+.about-salvadore {
+   margin-bottom: 30px;
 }
 .link {
    text-decoration: underline;
@@ -189,6 +201,20 @@ body {
 .link:visited {
    color: blueviolet;
 }
-.biography p:nth-of-type(odd) {
-color: blue;
+.about-salvadore p:nth-of-type(odd) {
+   color: blue;
+}
+.about-salvadore p:not(:last-child) {
+   margin-bottom: 15px;
+}
+.footer-link {
+   font-family: "Lato", sans-serif;
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 2;
+   padding: 30px 0 30px 0;
+   text-align: center;
+   width: 100%;
+   max-height: 110px;
+   color: #42454f4c;
 }
