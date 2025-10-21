@@ -38,8 +38,7 @@ body {
    background:
       url("../img/pizza.png") 90% 0% / 250px no-repeat,
       url("../img/turtles.jpg") 50% 50% no-repeat;
-   margin-bottom: 50px;
-   margin: 0 auto;
+   margin: 0 auto 50px;
 }
 .game-block img {
    max-width: 300px;
@@ -193,6 +192,7 @@ body {
 }
 .about-salvadore {
    margin-bottom: 30px;
+   padding: 0 20px;
 }
 .link {
    text-decoration: underline;
