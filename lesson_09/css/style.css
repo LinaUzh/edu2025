@@ -1,0 +1,69 @@
+@import url("reset.css");
+@import url("fonts.css");
+.body {
+   margin: o auto;
+   padding: 30px 50px;
+}
+.header {
+   margin-bottom: 30px;
+}
+.logo-header {
+   margin-bottom: 30px;
+}
+.search{
+   border-bottom: solid 1px grey;
+   max-width: 264px;
+}
+.search__container{
+   background: url(../img/icons/search.svg) 0 center / 20px 20px no-repeat;
+   max-width: 264px;
+   max-height: 44px;
+   padding-left: 24px;
+}
+.action__item:first-child {
+   background: url(../img/icons/heart.svg) center / 20px 20px no-repeat;
+   max-width: 20px;
+   max-height: 20px;
+   padding-left: 24px;
+   line-height: 1.3;
+}
+.action__item:last-child {
+   background: url(../img/icons/shopping-bag.svg) center / 20px 20px no-repeat;
+   max-width: 20px;
+   max-height: 20px;
+   padding-left: 24px;
+   line-height: 1.3;
+}
+.hero__wrapper{
+   background: url(../img/banner.webp) center/ 1920px 612px no-repeat;
+   width: 1920px;
+   height: 612px;
+}
+.hero__container {
+ max-width: 1392px;
+  margin: 0 auto;
+  padding: 114px 0 110px 0;
+}
+.hero__content{
+   max-width: 650px;
+  margin-left: auto;
+}
+.hero__content p{
+   margin-bottom: 20px;
+}
+.hero__content p:last-of-type{
+   color:#7e7f7c;
+   margin-bottom: 0;
+}
+.hero__title {
+   font-family: "Montserrat" , sans-serif;
+   font-weight: 700;
+   border-bottom:1px solid  grey;
+    max-width: 308px ;
+   font-size: 96px;
+   margin-bottom: 52px;
+}
+.hero__title span {
+    font-family: "Montserrat" , sans-serif;
+   font-weight: 800;
+}
