@@ -117,8 +117,6 @@
 .second-sub-menu__item:hover .third-sub-menu__item {
    display: block;
 }
-.title__container {
-}
 .main__title {
    font-family: "Montserrat", sans-serif;
    font-weight: 800;
@@ -241,7 +239,7 @@
    font-family: "Playfair", serif;
    font-weight: 400;
    font-size: 20px;
-   color: 000000;
+   color: #000000;
    line-height: 1.35;
 }
 .info-bao__title--margin {
