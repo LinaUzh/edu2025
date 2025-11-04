@@ -1,0 +1,479 @@
+@import url("reset.css");
+@import url("fonts.css");
+.wrapper {
+   position: relative;
+   min-height: 100%;
+   overflow: clip;
+   margin: 0 auto;
+}
+.wrapper {
+   background-color: #0a0a0a;
+   overflow: hidden;
+   max-width: 2000px;
+}
+.header {
+   margin: 0 auto;
+   max-width: 650px;
+   margin-bottom: 20px;
+}
+.header__container h1 {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 600;
+   color: #e61c1c;
+   font-size: 90px;
+   padding: 20px 10px 10px 10px;
+}
+.ufo {
+   background: url("../img/fantasticeskii-stil-galakticeskogo-fona.webp") 0 0 / 2400px 1800px no-repeat;
+   position: relative;
+   overflow: hidden;
+   width:1800px;
+   height: 800px;
+   margin: 0 auto ;
+}
+.ufo__container {
+  position: absolute;
+  top: 100;
+  left:-150px;
+  scale: 0.5;
+}
+.alien__had {
+   border-radius: 50% 50% 50% 50% / 25% 23% 77% 75%;
+   background-color: rgb(71, 218, 71);
+   width: 75px;
+   height: 100px;
+   position: absolute;
+   top: 230px;
+   left: 580px;
+}
+.alien__eyes--left,
+.alien__eyes--right {
+   border-radius: 50% 50% 53% 47% / 35% 65% 35% 65%;
+   width: 30px;
+   height: 20px;
+   background: #020024;
+   display: inline-block;
+   background: #b5b0b0;
+   background: radial-gradient(circle, rgba(181, 176, 176, 1) 0%, rgba(0, 0, 0, 1) 34%);
+   position: absolute;
+   top: 20px;
+   left: 2px;
+}
+.alien__eyes--right {
+   transform: scale(-1, 1);
+   position: absolute;
+   top: 20px;
+   left: 40px;
+}
+.alien__mouth {
+   border-radius: 44% 50% 41% 54% / 47% 44% 54% 58%;
+   width: 40px;
+   height: 10px;
+   background-color: #33a22f;
+   position: absolute;
+   top: 60px;
+   left: 16px;
+}
+.alien__body {
+   border-radius: 50% 50% 50% 50% / 25% 23% 77% 75%;
+   background-color: rgb(71, 218, 71);
+   width: 100px;
+   height: 150px;
+   transform: rotate(180deg);
+   position: absolute;
+   top: 320px;
+   left: 570px;
+}
+.glass__wrapper {
+   width: 250px;
+   height: 200px;
+   position: relative;
+   top: 200px;
+   left: 500px;
+   z-index: 1;
+}
+.glass__container {
+   border-radius: 47% 48% 0% 0% / 53% 53% 0% 4%;
+   width: 250px;
+   height: 200px;
+   background: #3a44b4;
+   background: linear-gradient(
+      22deg,
+      rgba(58, 68, 180, 0.392) 0%,
+      rgba(223, 29, 253, 0.458) 51%,
+      rgba(69, 246, 252, 0.7) 100%
+   );
+   transform-origin: bottom right;
+}
+.glass__wrapper:hover .glass__container {
+   rotate: 80deg;
+   transform-origin: bottom right;
+   transition: 1s;
+}
+.glass__base {
+   border-radius: 36% 33% 49% 49% / 84% 96% 18% 25%;
+   width: 650px;
+   height: 100px;
+   background: #0a0a0a;
+   background: linear-gradient(0deg, rgba(10, 10, 10, 1) 13%, rgba(46, 38, 135, 1) 55%, rgba(155, 139, 224, 1) 93%);
+   box-shadow: 0 30px 20px rgba(255, 255, 0, 0.394);
+   position: relative;
+   top: 200px;
+   left: 300px;
+   z-index: 4;
+}
+.glass__block {
+   display: inline-block;
+   width: 150px;
+   height: 100px;
+   border: 2px solid rgb(22, 0, 46);
+   border-radius: 36% 33% 0% 0% / 84% 96% 18% 25%;
+   position: absolute;
+   top: -1px;
+   left: 240px;
+   background: #0a0a0a;
+   background: linear-gradient(0deg, rgba(10, 10, 10, 1) 23%, rgb(57, 48, 134) 55%, rgba(155, 139, 224, 1) 93%);
+}
+.base__circle {
+   width: 250px;
+   height: 150px;
+   background-color: black;
+   border-radius: 10% 10% 50% 50% / 10% 10% 76% 69%;
+   background: #020024;
+   background: linear-gradient(180deg, rgba(2, 0, 36, 1) 77%, rgba(56, 51, 42, 1) 100%);
+   position: absolute;
+   top: 420px;
+   left: 500px;
+   z-index: 3;
+   transition: 0.8s;
+}
+.glass__baseblock {
+   width: 300px;
+   height: 30px;
+   background: #111212;
+   background: linear-gradient(0deg, rgba(17, 18, 18, 1) 40%, rgba(134, 138, 131, 1) 64%, rgba(255, 255, 255, 1) 88%);
+   position: absolute;
+   top: -30px;
+   left: 175px;
+   border-radius: 25px 25px 0 0;
+}
+.base__light {
+   position: absolute;
+   top: 450px;
+   left: 520px;
+   border-bottom: 650px solid rgba(209, 203, 91, 0.35);
+   border-left: 35px solid transparent;
+   border-right: 35px solid transparent;
+   height: 350px;
+   width: 200px;
+   z-index: 2;
+}
+.base__circle:hover + .base__light {
+   transition: 1s;
+   opacity: 1;
+}
+.base__circle:hover {
+   opacity: 0;
+}
+.light__container {
+   position: relative;
+   top: 0;
+   left: 20px;
+}
+.base__containerpic {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   top: 850px;
+   left: 570px;
+}
+.light__lamp {
+   width: 17px;
+   height: 17px;
+   background: #e61c1c;
+   background: radial-gradient(circle, rgba(230, 28, 28, 1) 47%, rgba(84, 28, 28, 1) 100%);
+   border-radius: 50%;
+   display: inline-block;
+   margin-top: 5px;
+   box-shadow: 3px 2px 5px rgb(25, 25, 60);
+}
+.light__lamp--margin:not(:last-child) {
+   margin-right: 20px;
+}
+.light__lamp:nth-of-type(2n + 1) {
+   background: #22e61c;
+   background: radial-gradient(circle, rgba(34, 230, 28, 1) 26%, rgba(12, 46, 8, 1) 100%);
+}
+.light__lamp:nth-of-type(1n + 1):hover + .light__lamp {
+   background: #441ce6;
+}
+.light__lamp:hover {
+   background: #e68b1c;
+}
+.lamp {
+   display: inline-block;
+   width: 25px;
+   height: 10px;
+   border-radius: 10% 10% 50% 50% / 10% 10% 76% 69%;
+   position: relative;
+   top: 97px;
+   left: 0px;
+   background-color: rgb(255, 229, 79);
+}
+.lamp:not(:last-child) {
+   margin-right: 15px;
+}
+.lamp:nth-child(1) {
+   width: 25px;
+   height: 10px;
+   top: 80px;
+   left: 0px;
+   rotate: 10deg;
+}
+.lamp:nth-child(2) {
+   width: 25px;
+   height: 10px;
+   top: 88px;
+   left: 0px;
+   rotate: 7deg;
+}
+.lamp:nth-child(3) {
+   width: 25px;
+   height: 10px;
+   top: 93px;
+   left: 0px;
+   rotate: 4deg;
+}
+.lamp:nth-child(4) {
+   width: 25px;
+   height: 10px;
+   top: 94px;
+   left: 0px;
+   rotate: 2deg;
+}
+.lamp:nth-child(13) {
+   width: 25px;
+   height: 10px;
+   top: 93px;
+   left: 0px;
+   rotate: -4deg;
+}
+.lamp:nth-child(14) {
+   width: 25px;
+   height: 10px;
+   top: 90px;
+   left: 0px;
+   rotate: -5deg;
+}
+.lamp:nth-child(15) {
+   width: 25px;
+   height: 10px;
+   top: 86px;
+   left: 0px;
+   rotate: -8deg;
+}
+.glass__bacelamp:hover .lamp {
+   background: #ffffff;
+}
+.base__pic {
+   position: absolute;
+   top: 150px;
+   left: 0;
+   transform-origin: center;
+}
+.footer__container {
+   max-width: 300px;
+}
+.footer__container--margin {
+   margin: 0 auto;
+}
+.footer__link{
+   color: #e61c1c5e;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 600;
+   font-size: 20px;
+   padding: 15px;
+}
+/* ----------------------Анімація---------- */ 
+.base__light{
+animation: light-opacity 10s steps(12) 1;
+animation-fill-mode: forwards;
+}
+@keyframes light-opacity {
+   0%{ opacity: 0.3;}
+   30%{ opacity: 1;}
+   50%{ opacity: 0.2;}
+   70%{opacity: 0.6;}
+   80%{ opacity: 0;}
+   90%{opacity: 1;}
+   100%{opacity: 0;}
+}
+.base__containerpic {
+   animation-name: man-rotate-fall;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   animation-timing-function: linear;
+   animation-fill-mode: forwards;
+}
+@keyframes man-rotate-fall{
+0%{rotate: 10deg;opacity: 0.3;}
+5%{rotate: 5deg;opacity: 1;}
+10%{rotate: -5deg;opacity: 0.7;}
+20%{rotate: -10deg,
+translateY(-350px);opacity: 0.3;}
+30%{rotate:-5deg;opacity: 1;}
+40%{rotate: 10deg;}
+50%{transform: translateY(-200px); rotate: -5deg;}
+60%{rotate: 10deg;}
+70%{ rotate: 5deg;}
+75%{rotate: -5deg;
+transform: translateY(-450px)}
+80%{rotate: 10deg;
+transform: translateY(-200px)}
+100%{transform: translateY(-550px);}
+}
+.light__lamp:nth-of-type(2n + 1){
+   animation-name: light-lamp-color-one;
+   animation-iteration-count: infinite;
+   animation-duration: 1.5s;
+   animation-timing-function: linear;
+}
+@keyframes light-lamp-color-one {
+   25%{background: #441ce6;}
+   50%{ background: #22e61c;}
+   75%{ background: #e61c1c;}
+   100%{background: rgb(223, 86, 214);}
+}
+.ufo__container{
+   animation-name: ufo-move;
+   animation-iteration-count: 1;
+   animation-duration: 30s;
+   animation-timing-function: linear;
+   animation-fill-mode: backwards;
+}
+@keyframes ufo-move{
+   0%{
+      transform: translateX(10px);
+      scale: 0.7;
+   }
+   5%{ 
+      scale: 0.5;
+   rotate: 10deg;
+   transform: translateX(650px),translateY(100px);
+ }
+   10%{
+      transform: translateX(800px), skew(30deg);
+      scale: 0.2;
+   rotate: -20deg; }
+   15% {
+      transform: translateX(700px),translateY(200px);
+      rotate: 20deg;
+   }
+   20%{
+      rotate: 10deg;
+      transform: translateX(800px), translateY(150px), skew(0deg);
+       scale: 0.4;
+   }
+   25%{
+      scale: 0.6;
+      transform: translateX(1800px), translateY(50px);
+   }
+   30%{
+      transform: translateX(1500px), translateY(-50px);
+   }
+   35%{
+     scale: 1.2;
+   }
+   40%{
+      transform: translateY(0px);
+   scale: 1;
+   }
+   45%{
+scale: 0.8;
+transform: translateX(900px);
+   }
+   50%{ 
+      scale: 0.5; 
+      rotate: -10deg;}
+   75%{
+      rotate: 30deg;
+      scale:0.1;
+   }
+   80%{
+      rotate: 80deg;
+      scale:0.1;
+      transform: translateX(900px);
+   }
+   90%{
+     transform: translateX(1500px), translateY(-50px);
+   }
+   95%{
+      scale: 0.3;
+       transform: translateX(1000px);
+   }
+   100%{
+   scale: 0.5;}
+}
+.base__pic{
+   animation-name: man-last-fall;
+   animation-delay: 10s;
+   animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+}
+@keyframes man-last-fall { 
+  10%{transform: translateY(-50px)}
+   100% {transform: translateY(-750px);}
+} 
+.lamp{
+   animation-name: lamp; 
+    animation-timing-function: linear;
+    animation-duration: 1s;
+   animation-iteration-count: infinite;
+}
+@keyframes lamp{
+50%{
+   background-color: #ede9e8;
+}
+}
+.glass__base {
+   animation-name: base-shadow;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+   animation-iteration-count: infinite;
+}
+@keyframes base-shadow{
+   50% {
+      background: linear-gradient(0deg, rgba(10, 10, 10, 1) 13%, rgba(46, 38, 135, 1) 55%, rgba(155, 139, 224, 1) 93%);
+   box-shadow: 0px 40px 30px rgba(245, 245, 243, 0.394);
+   }
+}
+.glass__container {
+   animation-name: glass-open;
+   animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    animation-delay: 10s;
+}
+@keyframes glass-open{
+   30%{
+      transform: rotate(100deg);
+   }
+}
+.ufo{
+background-repeat: repeat-x;
+   background-size: cover;
+   animation-name: backround-move;
+   animation-duration: 10s;
+   animation-timing-function: linear;
+   animation-iteration-count: 3;
+
+}
+@keyframes backround-move{
+   0%{
+      background-position: 0 0;
+   }
+   100%{
+      background-position: -2000px;
+   }
+}
