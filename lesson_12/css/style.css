@@ -319,8 +319,9 @@ animation-fill-mode: forwards;
 0%{rotate: 10deg;opacity: 0.3;}
 5%{rotate: 5deg;opacity: 1;}
 10%{rotate: -5deg;opacity: 0.7;}
-20%{rotate: -10deg,
-translateY(-350px);opacity: 0.3;}
+20%{rotate: -10deg;
+transform:translateY(-350px);
+opacity: 0.3;}
 30%{rotate:-5deg;opacity: 1;}
 40%{rotate: 10deg;}
 50%{transform: translateY(-200px); rotate: -5deg;}
@@ -359,27 +360,27 @@ transform: translateY(-200px)}
    5%{ 
       scale: 0.5;
    rotate: 10deg;
-   transform: translateX(650px),translateY(100px);
+   transform: translateX(650px) translateY(100px);
  }
    10%{
-      transform: translateX(800px), skew(30deg);
+      transform: translateX(800px) skew(30deg);
       scale: 0.2;
    rotate: -20deg; }
    15% {
-      transform: translateX(700px),translateY(200px);
+      transform: translateX(700px) translateY(200px);
       rotate: 20deg;
    }
    20%{
       rotate: 10deg;
-      transform: translateX(800px), translateY(150px), skew(0deg);
+      transform: translateX(800px) translateY(150px) skew(0deg);
        scale: 0.4;
    }
    25%{
       scale: 0.6;
-      transform: translateX(1800px), translateY(50px);
+      transform: translateX(1800px) translateY(50px);
    }
    30%{
-      transform: translateX(1500px), translateY(-50px);
+      transform: translateX(1500px) translateY(-50px);
    }
    35%{
      scale: 1.2;
@@ -405,7 +406,7 @@ transform: translateX(900px);
       transform: translateX(900px);
    }
    90%{
-     transform: translateX(1500px), translateY(-50px);
+     transform: translateX(1500px) translateY(-50px);
    }
    95%{
       scale: 0.3;
