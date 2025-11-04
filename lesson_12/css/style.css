@@ -33,7 +33,7 @@
 }
 .ufo__container {
   position: absolute;
-  top: 100;
+  top: 0;
   left:-150px;
   scale: 0.5;
 }
@@ -377,10 +377,10 @@ transform: translateY(-200px)}
    }
    25%{
       scale: 0.6;
-      transform: translateX(1800px) translateY(50px);
+      transform: translateY(50px);
    }
    30%{
-      transform: translateX(1500px) translateY(-50px);
+      transform: translateX(1000px) translateY(-50px);
    }
    35%{
      scale: 1.2;
