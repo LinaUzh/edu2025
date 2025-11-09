@@ -97,20 +97,21 @@ flex-wrap: wrap;
 .preview-card__item {
    display: inline-flex;
    flex-direction: column;
-   max-width: 440px;
+   flex-basis: 400px;
 }
 .preview-card__item:hover{
 box-shadow: 3px 5px 25px  #2f302c;
 }
 .preview-card__image {
    margin-bottom:32px ;
-   flex-basis: 440px;
    flex-shrink: 0;
+   min-width: 440px;
 }
-.preview-card__image picture {
-   
-  height: 574px;
- 
+.preview-card__image picture,
+.preview-card__image img {
+display: block;
+width: 100%;
+max-height: 574px;
 }
 .preview-card__body{
    text-align: center;
