@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+         rel="stylesheet">
+      <title>Lesson 14 </title>
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body class="body">
+      <div class="wrapper">
+         <header class="header">
+            <div class="header__container">
+
+            </div>
+         </header>
+         <main class="page">
+            <div class="register">
+               <div class="register__container title-register ">
+                  <div class="title-register__container">
+                     <h2 class="title-register__title">REGISTER TO FURNITUR</h2>
+                     <span class="title-register__text">
+                        GET MONTHLY VOUCHER WITH JUST ONE CLICK!
+                     </span>
+                  </div>
+                  <div class="signup-form promo ">
+                     <div class="signup-form__container information form">
+                        <div class="information__wrapper  ">
+                           <h2 class="information__title">YOUR INFORMATION </h2>
+                           <span class="information__text">You already have an
+                              account? <a class="information__link"
+                                 href="#">Sign
+                                 in here</a></span>
+                        </div>
+                        <form class="form__container" action="#" id="form">
+                           <input class="form__input" type="text"
+                              name="form[username]" placeholder="Your name"
+                              required>
+                           <input class="form__input" type="text"
+                              name="form[email]" placeholder="E-mail"
+                              required
+                              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                           <input class="form__input" type="tel"
+                              name="form[tel]" required
+                              placeholder="Phone number">
+                           <input class="form__input"
+                              type="password" name="form[password]"
+                              placeholder="Password" required minlength="5">
+                           <input class="form__input"
+                              type="password" name="form[password]"
+                              placeholder="Confirm Password" required
+                              minlength="5">
+                        </form>
+                        <button class="form__button" form="form">
+                           <span>Create an account</span>
+                        </button>
+                     </div>
+                     <div class="promo__container">
+                        <picture class="promo__banner">
+                           <source
+                              srcset="img/Banner-1x.avif 1x, img/Banner-2x.avif 2x, img/Banner-3x.avif 3x"
+                              type="image/avif">
+                           <source
+                              srcset="img/Banner-1x.webp 1x, img/Banner-2x.webp 2x, img/Banner-3x.webp 3x"
+                              type="image/webp">
+                           <img
+                              srcset="img/Banner-2x.png 2x, img/Banner-3x.png 3x"
+                              src="img/Banner-1x.png" alt="gold lamp">
+                        </picture>
+                        <div class="promo__wrapper">
+                           <span>HOT</span>
+                           <h2 class="promo__title">DISCOUNT <br> 25% FOR <br>
+                              NEW <br>MEMBER </h2>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>
+         <footer class="footer">
+
+         </footer>
+      </div>
+   </body>
+</html>
