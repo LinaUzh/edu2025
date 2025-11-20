@@ -8,6 +8,9 @@
    display: flex;
    flex-direction: column;
 }
+.wrapper > main {
+   flex-grow: 1;
+}
 .wrapper {
    max-width: 1920px;
    font-family: "Lato", sans-serif;
@@ -15,11 +18,18 @@
    color: #7e7f7c;
    line-height: 1.25;
    padding: 0 15px;
-   
 }
 .header {
+   margin: 0 auto;
+   margin-bottom: 30px;
 }
 .header__container {
+}
+.header__title {
+   font-family: "Lato", sans-serif;
+   font-weight: 700;
+   font-size: 50px;
+   padding-top: 20px;
 }
 .page {
    margin: 0 auto;
@@ -48,18 +58,16 @@
 }
 .title-register__text {
    font-weight: 700;
-   
 }
 .information__wrapper {
    display: flex;
    flex-direction: column;
    row-gap: 36px;
-   
+
    align-items: flex-start;
-   
 }
 .information__title {
-}  
+}
 .information__link {
    color: #2f302c;
    font-weight: 700;
@@ -90,15 +98,15 @@
    max-width: 712px;
    width: 100%;
 }
-.form__input{
+.form__input {
    display: inline-flex;
    max-width: 336px;
    padding: 12px 0;
-   border-bottom: solid 1px #d4d4d4; 
+   border-bottom: solid 1px #d4d4d4;
    flex-wrap: wrap;
    font-size: 16px;
    line-height: 1.25px;
- width: 100%;
+   width: 100%;
 }
 .form__input:nth-child(3) {
    max-width: 712px;
@@ -109,15 +117,15 @@
    color: #fff;
    padding: 12px 0;
    max-width: 336px;
-  box-sizing: border-box;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  line-height: 1.25;
+   box-sizing: border-box;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   line-height: 1.25;
 }
-.form__button:hover{
+.form__button:hover {
    background-color: #4a4c48;
    text-decoration: underline;
 }
@@ -168,4 +176,9 @@
    height: auto;
 }
 .footer {
+   padding: 15px 0;
+}
+.footer__link {
+   display: flex;
+   justify-content: center;
 }
