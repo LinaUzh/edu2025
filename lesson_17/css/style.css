@@ -175,6 +175,13 @@ color: #2f302c;
       padding-right: 54px;
    }
 }
+@media (max-width: 650px) {
+   .banner__card {
+       grid-column:  span 2;
+       row-gap: 36px;
+       min-height:484px;
+   }
+}
 /* -----------PARTNERS-------------------------- */
 .partners {
    margin-bottom: 82px;
@@ -219,20 +226,31 @@ color: #2f302c;
    .partners__list {
       column-gap: 30px;
       row-gap: 40px;
-      grid-template-columns: repeat(auto-fill, minmax(140px, 140px));
-   }
-   .partners__link {
-      max-height: 140px;
+      justify-content: center;
    }
    .partners__container {
       justify-content: center;
    }
 }
-
+@media (max-width:  1000px){
+     .partners__item{
+     max-width: 140px;
+   max-height: 140px;
+   }
+   .partners__link img {
+      max-height: 140px;
+      max-width: 140px;
+   }
+    .partners__list {
+      column-gap: 20px;
+      row-gap: 30px;
+   }
+}
 /* -----------PREVIEW-MENU---------------- */
 .preview__menu {
    margin-bottom: 72px;
    display: grid;
+   justify-content: center;
 }
 .menu {
 }
@@ -251,10 +269,12 @@ color: #2f302c;
    grid-template-columns: repeat(1fr 1fr 1fr 1fr);
 }
 .menu__item {
+   
 }
 .menu__link {
    font-weight: 700;
    position: relative;
+   
 }
 .menu__link:hover::after {
    border-bottom: 1px solid #2f302c;
@@ -274,13 +294,22 @@ color: #2f302c;
    transform: scaleX(0);
    transform-origin: right;
 }
+@media (max-width: 360px){
+.menu__list {
+   row-gap: 15px;
+   font-size: 14px;
+     column-gap: 18px;
+       grid-template-columns: 1fr 1fr ;
+}
+}
+
 /* -------------PREVIEW-BODY--------------------- */
 .preview {
    margin-bottom: 82px;
    display: grid;
 }
 .preview__container {
-   
+   display: grid;
 }
 .preview__list {
    display: grid;
@@ -365,11 +394,16 @@ overflow: hidden;
       font-size: 16px;
    }
 }
-/* @media (max-width: 455px) {
-   .preview__image img {
-      max-width: ;
+@media (max-width: 400px) {
+   .preview__list{
+      grid-template-columns: 290px  ;
+      row-gap: 40px;
+       justify-content: center;
    }
-} */
+   .preview__container{
+     
+   }
+}
 /* --------------BENEFITS------------------------------------- */
 .benefits {
    display: grid;
