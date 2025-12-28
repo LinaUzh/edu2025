@@ -61,8 +61,7 @@ picture {
    padding-right: 75px;
    padding-bottom: 51px;
 }
-.banner__card--right{
-}
+
 .banner__card--central img {
    align-items: center;
 }
@@ -161,11 +160,7 @@ color: #2f302c;
       grid-template-columns: repeat(2, 1fr);
       row-gap: 36px;
       grid-template-columns: repeat(auto-fill, minmax (300px, 1fr));
-      grid-template-areas:
-   "left"
-   "right"
-   "central"
-;
+
    }
    .banner__card--central {
       grid-column: span 2;
@@ -173,13 +168,41 @@ color: #2f302c;
    .banner__card--central {
       padding-left: 54px;
       padding-right: 54px;
+       order: 2;
    }
+   .banner__card {
+       row-gap: 36px;
+       min-height:484px;
+        grid-template-columns: repeat( 1fr, 05fr);
+   }
+   .banner__card--central .banner__image{
+     justify-content: center;
+   }
+.banner__card--reverse .banner__image  {
+   justify-content: end;
+   padding-right: 73px;
+}
+.banner__image, .banner__right-image{
+   justify-content: end;
+}
 }
 @media (max-width: 650px) {
    .banner__card {
-       grid-column:  span 2;
        row-gap: 36px;
        min-height:484px;
+       grid-column: span 2;
+   }
+   .banner__card--central{
+       padding-left: 44px;
+   padding-right: 45px;
+   padding-bottom: 21px;
+   }
+}
+@media (max-width: 400px){
+   .banner__card--central{
+       padding-left: 10px;
+   padding-right: 21px;
+   padding-bottom: 21px;
    }
 }
 /* -----------PARTNERS-------------------------- */
