@@ -333,6 +333,7 @@ color: #2f302c;
 }
 .preview__container {
    display: grid;
+   justify-content: center;
 }
 .preview__list {
    display: grid;
@@ -357,7 +358,9 @@ color: #2f302c;
 .preview__image img {
    object-fit: contain;
    grid-auto-rows: 574px;
-  
+   width: 100%;
+  height: auto;
+  display: block;
 }
 .preview__image {
 overflow: hidden;
