@@ -49,7 +49,7 @@ picture {
    padding-top: 48px;
    display: grid;
    row-gap: 96px;
-   grid-template-columns: repeat(auto-fill, minmax (300px 3fr));
+   grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
    grid-template-areas:
       "body"
       "image";
@@ -159,7 +159,7 @@ color: #2f302c;
    .banner__container {
       grid-template-columns: repeat(2, 1fr);
       row-gap: 36px;
-      grid-template-columns: repeat(auto-fill, minmax (300px 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 
    }
    .banner__card--central {
@@ -173,7 +173,7 @@ color: #2f302c;
    .banner__card {
        row-gap: 36px;
        min-height:484px;
-        grid-template-columns: repeat( 1fr);
+        grid-template-columns:  1fr;
    }
    .banner__card--central .banner__image{
      justify-content: center;
